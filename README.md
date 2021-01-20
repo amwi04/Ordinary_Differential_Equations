@@ -8,7 +8,9 @@
     - Take Taylor series expansion
     -    $f(x + iy) = f(x) + iyf'(x) + O(h^2)$
     -    $if'(x) = \frac{ f(x + iy) - f(x) + O(h^2)}{y}$
-                        
+    
+
+    - ![equation](https://latex.codecogs.com/gif.latex?\frac{&space;f(x&space;&plus;&space;iy)&space;-&space;f(x)&space;&plus;&space;O(h^2)}{y})
  
 
 ```python
