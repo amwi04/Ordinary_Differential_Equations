@@ -6,11 +6,15 @@
     - and f: R -> R
     - But f(x) is analytic (means it is differentiable)
     - Take Taylor series expansion
-    -    $f(x + iy) = f(x) + iyf'(x) + O(h^2)$
-    -    $if'(x) = \frac{ f(x + iy) - f(x) + O(h^2)}{y}$
-    
+    -   f(x + iy) = f(x) + iyf'(x) + O(y^2)
+    -   if'(x) =  f(x + iy) - f(x) + O(y^2) / y
+    - as f:R -> R
+    - f'(x) = Im[f(x + iy) - f(x)] /y + O(y)
+    - and imaginary part of f(x)/h will be 0 as f:R -> R
+    - f'(x) = Im[f(x + iy)]/y + O(y)
+    - To find derivative of a function will be img part of f(x + iy)/y
 
-    - ![equation](https://latex.codecogs.com/gif.latex?\frac{&space;f(x&space;&plus;&space;iy)&space;-&space;f(x)&space;&plus;&space;O(h^2)}{y})
+    - That is implamented in forward_diff
  
 
 ```python
