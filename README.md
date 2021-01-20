@@ -6,8 +6,8 @@
     - and f: R -> R
     - But f(x) is analytic (means it is differentiable)
     - Take Taylor series expansion
-    -    $ f(x + iy) = f(x) + iyf'(x) + O(h^2) $
-    -    $ if'(x) = \frac{ f(x + iy) - f(x) + O(h^2)}{y}  $
+    -    $f(x + iy) = f(x) + iyf'(x) + O(h^2)$
+    -    $if'(x) = \frac{ f(x + iy) - f(x) + O(h^2)}{y}$
                         
  
 
