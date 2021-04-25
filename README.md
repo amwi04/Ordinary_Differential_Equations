@@ -30,4 +30,3 @@ h(xx)
  x:41, dx:34
 ```
 
-Where ε is the diff value of the equation
